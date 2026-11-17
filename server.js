@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Bienvenue sur mon site Node.js hébergé sur le Cloud</h1>
+    <h1>version2: application mise à jour sur le cloud </h1>
     <p>Nom : Nada</p>
     <p>Déploiement réalisé avec GitHub et Render</p>
   `);
